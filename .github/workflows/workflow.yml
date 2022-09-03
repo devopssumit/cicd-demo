@@ -43,7 +43,7 @@ jobs:
       - name: Create CodeDeploy Deployment
         id: deploy
         run: |
-          # Assuming the Deployment Group is already setup
+          # Assuming the Deployment Group is already setup debug here
           aws deploy create-deployment \
             --application-name FlaskAppCodeDeploy \
             --deployment-group-name FlaskAppCodeDeploy \
